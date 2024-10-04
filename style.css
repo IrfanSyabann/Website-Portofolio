@@ -354,7 +354,7 @@
 
     .sec-1.animation #text_home>p {
         opacity: 1;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .sec-1 .in_out-1>img {
@@ -367,7 +367,7 @@
 
     .sec-1 #text_home>p {
         opacity: 0;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     #aboutMe>div {
