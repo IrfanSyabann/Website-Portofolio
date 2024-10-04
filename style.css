@@ -308,12 +308,18 @@
 }
 
 @media (max-width: 576px) {
-    #text_toggle {
-        font-size: 4px;
-    }
-
     #hidden_sm {
         display: none;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 1400px) {
+    #fieldtext_aboutme {
+        font-size: 9px;
+    }
+
+    #cover_board {
+        scale: 1;
     }
 
     #fieldtext_aboutme {
@@ -323,21 +329,11 @@
     #cover_board {
         scale: 1;
     }
-}
 
-@media (max-width: 1000px) {
     #contactMe>div {
         scale: 0.2;
     }
-}
 
-@media (max-height: 450px) {
-    #contactMe>div {
-        scale: 0.3;
-    }
-}
-
-@media (max-width: 1400px) {
     #img_aboutme {
         height: 150px;
         width: 150px;
@@ -395,6 +391,4 @@
     #myProject>h1 {
         font-size: 10px;
     }
-
-
 }
