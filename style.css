@@ -301,19 +301,19 @@
     }
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     #show_sm {
         display: none;
     }
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     #hidden_sm {
         display: none;
     }
 }
 
-@media (min-width: 1px) and (max-width: 1400px) {
+@media only screen and (min-width: 1px) and (max-width: 1400px) {
     #fieldtext_aboutme {
         font-size: 9px;
     }
